@@ -1,1 +1,5 @@
-document.write('hello this is actually autoscouts code and I\'m plagiarizing it');
+const canvas = document.getElementById('game-canvas');
+const ctx = canvas.getContext('2d');
+
+ctx.fillStyle = '#FF0000'; 
+ctx.fillRect(20, 20, 150, 100); 
